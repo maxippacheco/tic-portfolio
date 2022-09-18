@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import './navbar.css'
+import './Navbar.css'
 
 import DarkModeOutlinedIcon from '@mui/icons-material/DarkModeOutlined';
 import MenuOutlinedIcon from '@mui/icons-material/MenuOutlined';
