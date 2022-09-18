@@ -7,7 +7,7 @@ import CloseOutlinedIcon from '@mui/icons-material/CloseOutlined';
 
 export const Navbar = () => {
 	
-	const [isVisible, setIsVisible] = useState(true);
+	const [isVisible, setIsVisible] = useState(false);
 
 	const handleToggle = () => setIsVisible(!isVisible);
 
