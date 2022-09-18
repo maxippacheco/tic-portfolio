@@ -70,6 +70,8 @@
 @media (max-width: 1300px) {
 	.home-title{
 		width: 100%;
+		padding: 5px;
+		font-size: 27px;
 	}
 }
 
@@ -93,4 +95,8 @@
 		height: 400px;
 	}
 
+	.home-navigate{
+
+		right: 50%;
+	}
 }
