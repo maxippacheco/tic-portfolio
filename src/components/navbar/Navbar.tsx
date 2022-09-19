@@ -1,9 +1,12 @@
 import React, { useState } from 'react'
-import './Navbar.css'
+
+import { Link } from 'react-router-dom'
 
 import DarkModeOutlinedIcon from '@mui/icons-material/DarkModeOutlined';
 import MenuOutlinedIcon from '@mui/icons-material/MenuOutlined';
 import CloseOutlinedIcon from '@mui/icons-material/CloseOutlined';
+
+import './Navbar.css'
 
 export const Navbar = () => {
 	
@@ -29,9 +32,14 @@ export const Navbar = () => {
 
 							<ul className={`nav-menu ${ isVisible ? 'nav-menu_visible' : '	'}`}>
 								<li className="nav-menu-item">
-									<a href="#" className='nav-menu-link'>
+									<Link to="/home" className='nav-menu-link'>
+										Inicio
+									</Link>
+								</li>								
+								<li className="nav-menu-item">
+									<Link to="/about" className='nav-menu-link'>
 										Sobre mí
-									</a>
+									</Link>
 								</li>
 								<li className="nav-menu-item">	
 									<a href="#" className='nav-menu-link'>
