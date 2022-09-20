@@ -1,7 +1,6 @@
 import React from 'react'
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom'
-import { AboutPage } from '../pages/AboutPage';
-import { HomePage } from '../pages/HomePage';
+import { AboutPage, HomePage, KnowledgePage } from '../pages';
 
 export const AppRouter = () => {
 	return (
@@ -9,6 +8,7 @@ export const AppRouter = () => {
 			<Routes>
 				<Route path="/home" element={<HomePage />} />
 				<Route path="/about" element={<AboutPage />} />
+				<Route path="/knowledge" element={<KnowledgePage />} />
 
 				<Route path="/*" element={ <Navigate to="/home" /> } />
 			</Routes>

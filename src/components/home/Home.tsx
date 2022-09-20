@@ -38,12 +38,12 @@ export const Home = () => {
 					/>
 				</div>
 
-				<button className='home-navigate'>
-					<Link to='/about'>
+				{/* <button className='home-navigate'> */}
+					<Link to='/about' className='home-navigate'>
 						<SouthOutlinedIcon />
 
 					</Link>
-				</button>
+				{/* </button> */}
 			</div>		
 		</>
 	)

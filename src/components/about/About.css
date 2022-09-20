@@ -65,9 +65,14 @@
 		font-size: 17px;
 	}
 
-	.about__tags{
-		display: none;
-		/* margin: 10px; */
+	.about__tags_container{
+    width: 100%;
+    overflow-x: scroll;
+    height: 70px;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
 	}
+
 
 }
