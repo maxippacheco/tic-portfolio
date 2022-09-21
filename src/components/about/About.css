@@ -51,6 +51,11 @@
 }
 
 @media ( max-width: 900px ) {
+
+	/* ::-webkit-scrollbar {
+    display: none;
+	} */
+
 	.about__container{
 		flex-direction: column;
 	}
