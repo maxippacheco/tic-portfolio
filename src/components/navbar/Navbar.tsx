@@ -47,9 +47,9 @@ export const Navbar = () => {
 									</Link>
 								</li>
 								<li className="nav-menu-item">
-									<a href="#" className='nav-menu-link'>
+									<Link to="/hobbies" className='nav-menu-link'>
 										Hobbies
-									</a>
+									</Link>
 								</li>
 								<li className="nav-menu-item">
 									<a href="#" className='nav-menu-link'>
