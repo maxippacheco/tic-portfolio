@@ -30,7 +30,8 @@ const images = [
 export const Knowledge = () => {
 	return (
 	<div className='fadeIn'>
-		<h1 className='knowledge__title'>Cursos que tome:</h1>	
+		<h1 className='knowledge__title'>Cursos que tome:</h1>
+		{/* <p>Estos cursos estan referidos a programación web, una actividad que generó en mí el hábito de estudio y que fue un mundo que conocí gracias a la pandemia, ya que al estar en mi casa encerrado todo el día, decidí indagar en cosas nuevas como lo es la programación y los idiomas</p> */}
 		<div className="knowledge__wrapper">
 			{
 				images.map(img => (

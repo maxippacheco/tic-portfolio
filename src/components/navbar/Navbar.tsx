@@ -57,9 +57,9 @@ export const Navbar = () => {
 									</a>
 								</li>
 								<li className="nav-menu-item">
-									<a href="#" className='nav-menu-link'>
+									<Link to="/sports" className='nav-menu-link'>
 										Deporte
-									</a>
+									</Link>
 								</li>
 							</ul>
 					
