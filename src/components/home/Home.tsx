@@ -1,11 +1,10 @@
-import React, { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 
 import { Link } from 'react-router-dom';
 
 import Lottie from 'react-lottie-player';
 import SouthOutlinedIcon from '@mui/icons-material/SouthOutlined';
 import './Home.css'
-import lottieJson from './lottieJson.json'
 import { Loader } from '../loader';
 
 

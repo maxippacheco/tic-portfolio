@@ -56,24 +56,26 @@ const slideOutProperties = {
 export const Sports = () => {
 	return (
 		<AppLayout>
-        <div>
-          <h1 className='sports__title'>Deporte</h1>
-          <p className='sports__info'>
-            En cuanto al deporte, mi pasión es el futbol y lo juego desde que tengo 3 años. Gran parte de mi vida jugué al mismo y pude experimentar todo tipo de emociones y experiencias que me dejó el mismo.
-            Si bien probé otros deportes como natación, judo y basquet, fue algo de corto plazo que no me terminó de llamar la atención. También complemento futbol con gimnasio, otra actividad que cada día me ayuda a mejorar y saca lo mejor de mí. 
-            Uno de los pilares de mi vida es el deporte, no solo porque me guste, sino porque a su vez me ayudo a generar disciplina y es parte de un estilo de vida saludable que en mi opinión todos deberiamos tener.
-          </p>
-        </div>
-        <div className="slide-container">
-            <Slide {...slideOutProperties }>
-            {slideImages.map((slideImage, index)=> (
-                <div className="each-slide" key={index}>
-                  <div style={{'backgroundImage': `url(${slideImage.url})`}} className="each-slide-image">
-                    {/* <span>{slideImage.caption}</span> */}
+        <div className='fadeIn'>
+          <div>
+            <h1 className='sports__title'>Deporte</h1>
+            <p className='sports__info'>
+              En cuanto al deporte, mi pasión es el futbol y lo juego desde que tengo 3 años. Gran parte de mi vida jugué al mismo y pude experimentar todo tipo de emociones y experiencias que me dejó el mismo.
+              Si bien probé otros deportes como natación, judo y basquet, fue algo de corto plazo que no me terminó de llamar la atención. También complemento futbol con gimnasio, otra actividad que cada día me ayuda a mejorar y saca lo mejor de mí. 
+              Uno de los pilares de mi vida es el deporte, no solo porque me guste, sino porque a su vez me ayudo a generar disciplina y es parte de un estilo de vida saludable que en mi opinión todos deberiamos tener.
+            </p>
+          </div>
+          <div className="slide-container">
+              <Slide {...slideOutProperties }>
+              {slideImages.map((slideImage, index)=> (
+                  <div className="each-slide" key={index}>
+                    <div style={{'backgroundImage': `url(${slideImage.url})`}} className="each-slide-image">
+                      {/* <span>{slideImage.caption}</span> */}
+                    </div>
                   </div>
-                </div>
-              ))} 
-            </Slide>
+                ))} 
+              </Slide>
+          </div>
         </div>
 		</AppLayout>
 	)
