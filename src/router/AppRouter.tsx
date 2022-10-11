@@ -1,5 +1,5 @@
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom'
-import { AboutPage, HomePage, KnowledgePage, HobbiesPage, SportsPage } from '../pages';
+import { AboutPage, HomePage, KnowledgePage, HobbiesPage, SportsPage, SchoolPage } from '../pages';
 
 
 export const AppRouter = () => {
@@ -11,6 +11,7 @@ export const AppRouter = () => {
 				<Route path="/knowledge" element={<KnowledgePage />} />
 				<Route path="/sports" element={<SportsPage />} />
 				<Route path="/hobbies" element={<HobbiesPage />} />
+				<Route path="/school" element={<SchoolPage />} />
 
 				<Route path="/*" element={ <Navigate to="/home" /> } />
 			</Routes>

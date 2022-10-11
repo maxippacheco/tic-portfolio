@@ -47,7 +47,7 @@
 	display: none;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 790px) {
 	
 	.nav-menu{
 		flex-direction: column;

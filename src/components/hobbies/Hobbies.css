@@ -1,4 +1,10 @@
 
+.hobbies__title{
+	color: var(--main-color);
+	text-align: center;
+	margin: 20px 0px;
+}
+
 .hobbies__wrapper{
   width: 100vw;
   max-width:100%;  /* added */
@@ -10,4 +16,23 @@
 	align-items: center;
 	justify-items: center;
 	flex-wrap: wrap;
+}
+
+.hobbies__info{
+	text-align: center;
+	color: var(--main-color);
+	margin: 10px 0px;
+}
+
+@media (max-width: 1270px) {
+	.hobbies__wrapper{
+		grid-template-columns: repeat(2, 1fr);
+	}
+}
+
+@media (max-width: 670px) {
+	.hobbies__wrapper{
+		grid-template-columns: 1fr;
+	}
+
 }

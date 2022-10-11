@@ -6,6 +6,13 @@
 	font-size: 35px;
 }
 
+.knowledge__info{
+	color: #444;
+	padding: 10px;
+	font-size: 18px;
+	text-align: justify;
+}
+
 
 .knowledge__wrapper{
   width: 100vw;

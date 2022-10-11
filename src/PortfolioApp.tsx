@@ -1,13 +1,12 @@
-import React from 'react'
-import Lottie from 'react-lottie-player'
 import { AppRouter } from './router';
 import './main.css'
+import { ThemeProvider } from './context/ThemeProvider';
 
 export const PortfolioApp = () => {
 
 	return (
-		<div>
+		<ThemeProvider>
 			<AppRouter />
-		</div>
+		</ThemeProvider>
 	)
 }

@@ -52,9 +52,9 @@ export const Navbar = () => {
 									</Link>
 								</li>
 								<li className="nav-menu-item">
-									<a href="#" className='nav-menu-link'>
+									<Link to="/school" className='nav-menu-link'>
 										Escuela Secundaria
-									</a>
+									</Link>
 								</li>
 								<li className="nav-menu-item">
 									<Link to="/sports" className='nav-menu-link'>

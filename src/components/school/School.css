@@ -1,0 +1,64 @@
+.school__wrapper{
+	height: 80vh;
+	display: flex;
+	flex-direction: row;
+}
+
+.school__title{
+	text-align: center;
+	color: var(--main-color);
+	margin: 10px 0px;
+}
+
+.school__info{
+	width: 50%;
+}
+
+.school__info > p{
+	padding: 20px 20px;
+	font-size: 18px;
+	text-align: justify;
+	margin-bottom: 10px;
+}
+
+.school__info_image{
+	margin-top: 20px;
+	width: 200px;
+	height: 200px;
+	margin: 20px 20px;
+
+}
+
+.school__info_subtitle{
+	margin: 0px 20px;
+	color: var(--main-color);
+}
+
+.school__gif{
+	width: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+@media (max-width: 1000px) {
+	.school__wrapper{
+		flex-direction: column;
+	}
+	.school__info{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		width: 100%;
+	}
+
+	.school__info_subtitle{
+		padding-top: 30px;
+	}
+
+	.school__gif{
+		width: 100%;
+	}
+}
+
