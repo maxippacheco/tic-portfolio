@@ -8,3 +8,5 @@ export const SchoolPage = () => {
 		</AppLayout>
 	)
 }
+
+export default SchoolPage;

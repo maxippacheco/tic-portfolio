@@ -7,3 +7,5 @@ export const SportsPage = () => {
 		</>
 	)
 }
+
+export default SportsPage;

@@ -9,3 +9,5 @@ export const KnowledgePage = () => {
 		</AppLayout>
 	)
 }
+
+export default KnowledgePage;

@@ -58,7 +58,8 @@
 	}
 
 	.school__gif{
-		width: 100%;
+		display: none;
+		/* width: 100%; */
 	}
 }
 

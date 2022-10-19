@@ -9,3 +9,5 @@ export const AboutPage = () => {
 		</AppLayout>
 	)
 }
+
+export default AboutPage;

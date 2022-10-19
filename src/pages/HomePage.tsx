@@ -9,3 +9,5 @@ export const HomePage = () => {
 		</AppLayout>	
 	)
 }
+
+export default HomePage;

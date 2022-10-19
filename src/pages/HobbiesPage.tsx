@@ -8,3 +8,5 @@ export const HobbiesPage = () => {
 		</AppLayout>
 	)
 }
+
+export default HobbiesPage;
