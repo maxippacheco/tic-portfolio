@@ -12,23 +12,23 @@ export const Hobbies = () => {
 	const [watchingSeriesData, setWatchingSeriesData ] = useState<any>();
 
 	// setting data => lazy
-	const lazyloadData = async() => {
-		await Promise.all([
-			 import('./data/football.json').then(setFootballData),
-			 import('./data/languages.json').then(setLanguagesData),
-			 import('./data/listen_to_music.json').then(setListenToMusicData),
-			 import('./data/read.json').then(setReadData),
-			 import('./data/programming.json').then(setProgrammingData),
-			 import('./data/watching_series.json').then(setWatchingSeriesData),
-		 ])
+	// const lazyloadData = async() => {
+	// 	await Promise.all([
+	// 		 import('./data/football.json').then(setFootballData),
+	// 		 import('./data/languages.json').then(setLanguagesData),
+	// 		 import('./data/listen_to_music.json').then(setListenToMusicData),
+	// 		 import('./data/read.json').then(setReadData),
+	// 		 import('./data/programming.json').then(setProgrammingData),
+	// 		 import('./data/watching_series.json').then(setWatchingSeriesData),
+	// 	 ])
 
-	}
+	// }
 
-  useEffect(() => {
-		lazyloadData()
-	}, []);
+  // useEffect(() => {
+	// 	lazyloadData()
+	// }, []);
 
-  if (!footballData || !languagesData || !listenToMusicData || !readData || !programmingData || !watchingSeriesData) return <Loader />	
+  // if (!footballData || !languagesData || !listenToMusicData || !readData || !programmingData || !watchingSeriesData) return <Loader />	
 
 	return (
 		<div className="fadeIn">
@@ -36,7 +36,7 @@ export const Hobbies = () => {
 			<h1 className="hobbies__title">Cosas que disfruto hacer:</h1>
 
 			<div className="hobbies__wrapper">
-				<div>
+				{/* <div>
 					<h3 className="hobbies__info">Jugar al futbol</h3>
 					<Lottie 
 						loop
@@ -94,7 +94,7 @@ export const Hobbies = () => {
 						style={{ height: '300px', width: '300px'}}
 						animationData={ programmingData }
 					/>
-				</div>
+				</div> */}
 
 			</div>
 		</div>
