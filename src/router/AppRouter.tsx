@@ -1,5 +1,4 @@
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom'
-import { AboutPage, HomePage, KnowledgePage, HobbiesPage, SportsPage, SchoolPage } from '../pages';
 import { routes } from './routes';
 
 
@@ -8,8 +7,8 @@ export const AppRouter = () => {
 	  <BrowserRouter>
 			<Routes>
 				{
-					routes.map( ({ path, Component }) => (
-						<Route path={ path } element={ <Component /> } />
+					routes.map( ({ path, Component, name }) => (
+						<Route path={ path } element={ <Component /> } key={ name } />
 					))
 				}
 				<Route path="/*" element={ <Navigate to="/home" /> } />

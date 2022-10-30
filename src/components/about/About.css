@@ -1,6 +1,7 @@
 .about__container{
 	height: calc(100vh - 60px);
 	width: 100vw;
+	max-width: 100%;
 	display: flex;
 	flex-direction: row;
 	z-index: -1;

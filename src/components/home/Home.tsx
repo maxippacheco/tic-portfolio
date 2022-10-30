@@ -18,7 +18,7 @@ export const Home = () => {
     import('./lottieJson.json').then(setAnimationData);
   }, []);
 
-  if (!animationData) return <Loader />
+  if (!animationData) return <Loader />;
 
 
 	return (
