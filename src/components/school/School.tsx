@@ -1,7 +1,3 @@
-// import bariloche from '../../assets/bariloche.jpeg';
-import { useEffect, useState } from 'react';
-import { Loader } from '../loader';
-
 import escUNL from '../../assets/esc-unl.jpg';
 import escMoreno from '../../assets/esc-moreno.png';
 
@@ -9,13 +5,6 @@ import './School.css'
 
 export const School = () => {
 
-	const [animationData, setAnimationData] = useState<any>();
-
-  useEffect(() => {
-    import('./schoolJSON.json').then(setAnimationData);
-  }, []);
-
-  if (!animationData) return <Loader />
 
 	return (
 		<div className="fadeIn">
