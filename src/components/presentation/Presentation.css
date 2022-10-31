@@ -1,0 +1,141 @@
+
+.presentation__container{
+	background-color: #111;
+	overflow: hidden;
+}
+
+.presentation__salute{
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	overflow: hidden;
+}
+
+.presentation__saluteTextContainer{
+	flex: 3;
+}
+
+.presentation__saluteImgContainer{
+	flex: 1;
+}
+
+.presentation__saluteText{
+	color: #333;
+	font-size: 35vw;
+	cursor: default;
+}
+
+.presentation__saluteImgContainer > img{
+	width: 100%;
+}
+
+.presentation__nameContainer{
+	height: 100vh;
+	background-color: var(--main-color);
+}
+
+.presentation__nameContainer > h2 {
+	font-size: 20vw;
+	color: #333;
+	cursor: default;
+	text-align: center;
+	line-height: 100vh;
+}
+
+.presentation__hobbieTitleContainer{
+	height: 100vh;
+}
+
+.dark{
+	background: url("../../assets/bg1.png");
+}
+
+.purple{
+	background: var(--main-color) url("../../assets/bg2.png");
+}
+
+.presentation__hobbieTitleContainer > h2 {
+	font-size: 10vw;
+	color: #333;
+	line-height: 100vh;
+	cursor: default;
+}
+
+
+.presentation__navigate{
+	text-align: center;
+	line-height: 100vh;
+	font-size: 10vw;
+	color: #333;
+	cursor: default;
+}
+
+.presentation__githubContainer{
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+.presentation__githubTitle{
+	font-size: 5vw;
+	color: #333;
+	text-align: center;
+}
+
+.dates{
+	padding: 10px;
+	color: #555;
+	font-size: 12px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.presentation__githubChart{
+	width: 820px;
+}
+
+.presentation__boxContainer{
+	display: flex;
+	flex-wrap: wrap;
+	gap: 5px;
+}
+
+.presentation__githubBox{
+	width: 15px;
+	height: 15px;
+	background-color: #171c25;
+	border-radius: 2px;
+	cursor: pointer;
+	transition: 3s all ease;
+}
+
+.box_active:nth-child(4n){
+	background-color: #195b2c;
+}
+
+.presentation__githubChart:hover .box_active:nth-child(2n+1){
+	background-color: #195b2c;
+}
+
+.presentation__githubChart:hover .box_active:nth-child(2n){
+	background-color: #063f24;
+}
+
+
+@media (max-width: 500px) {
+	.presentation__githubTitle{
+		font-size: 15vw;
+	}
+	.presentation__hobbieTitleContainer > h2 {
+		font-size: 15vw;
+	}
+
+	.presentation__githubChart{
+		display: none;
+	}
+	.presentation__githubBox{
+		display: none;
+	}
+}

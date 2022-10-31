@@ -1,4 +1,5 @@
 import { lazy, LazyExoticComponent } from 'react';
+import { PresentationPage } from '../pages';
 
 type JSXComponent = () => JSX.Element;
 
@@ -56,5 +57,10 @@ export const routes: Route[] = [
 		Component: SportsLazy,
 		name: 'Sports-Page'
 	},
-
+	{
+		path: '/',
+		to: '/',  //=> eliminar el / del final para que el navlink detecte la ruta activa
+		Component: PresentationPage,
+		name: 'Presentation-Page'
+	},
 ];

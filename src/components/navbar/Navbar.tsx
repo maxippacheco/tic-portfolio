@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom'
 import DarkModeOutlinedIcon from '@mui/icons-material/DarkModeOutlined';
 import MenuOutlinedIcon from '@mui/icons-material/MenuOutlined';
 import CloseOutlinedIcon from '@mui/icons-material/CloseOutlined';
+import HomeIcon from '@mui/icons-material/Home';
 
 import './Navbar.css'
 
@@ -21,6 +22,9 @@ export const Navbar = () => {
 				<nav className='nav'>
 					<div className='nav-logo'>
 							<DarkModeOutlinedIcon fontSize='medium' />
+							<Link to="/" style={{ color: 'white', padding: '10px' }}>
+								<HomeIcon fontSize='medium' />
+							</Link>
 					</div>
 					<div className='nav-toggle-icon' onClick={ handleToggle }>
 					{
