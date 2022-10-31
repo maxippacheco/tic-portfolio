@@ -125,12 +125,12 @@
 
 
 @media (max-width: 500px) {
-	.presentation__githubTitle{
+	/* .presentation__githubTitle{
 		font-size: 15vw;
 	}
 	.presentation__hobbieTitleContainer > h2 {
 		font-size: 15vw;
-	}
+	} */
 
 	.presentation__githubChart{
 		display: none;

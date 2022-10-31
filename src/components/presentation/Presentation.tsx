@@ -41,8 +41,8 @@ export const Presentation = () => {
 			let offsetY = window.scrollY;
 			
 			saluteTextContainer.current.style.transform = `translateY(${offsetY * 0.3 }px)`
-			// saluteImgContainer.current.style.transform = `translate(${ offsetY * 0.4 }px, ${ offsetY * 0.5 }px)`
-			saluteImgContainer.current.style.transform = `translateY(${ -offsetY * 0.4 }px)`
+			saluteImgContainer.current.style.transform = `translate(${ offsetY * 0.4 }px, ${ offsetY * 0.5 }px)`
+			// saluteImgContainer.current.style.transform = `translateY(${ -offsetY * 0.4 }px)`
 		
 			nameRefContainer.current.style.transform = `translateX(${offsetY * 0.1 }px)`
 			
