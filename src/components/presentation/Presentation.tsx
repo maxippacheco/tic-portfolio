@@ -122,7 +122,7 @@ export const Presentation = () => {
 					</div>
 					
 				</div>
-				<h2 className="presentation__githubTitle">EN GITHUB</h2>
+				<h2 className="presentation__githubTitle">EN <a href="https://github.com/maxippacheco" target="_blank" style={{ color: 'var(--main-color)'}}>GITHUB</a></h2>
 			</div>
 {/* 
 			<div className='presentation__socialNetwork'>

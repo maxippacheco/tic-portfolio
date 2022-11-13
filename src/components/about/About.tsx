@@ -2,6 +2,8 @@
 import { useEffect, useState } from 'react';
 import Lottie from 'react-lottie-player';
 import { Loader } from '../loader';
+
+import analisisFODA from '../../assets/analisis-FODA.png'
 import './About.css'
 
 export const About = () => {
@@ -47,9 +49,14 @@ export const About = () => {
 				</div>
 			</div>
 
-			<div className='about__container bg__main'>
-				ANALISIS FODA
-				CV
+
+			<div className='foda__container'>
+				{/* <h1>Analisis de mis habilidades</h1> */}
+				<img src={ analisisFODA } alt="analisis-foda" className='about__analisis_foda' />
+			</div>
+
+			<div className='about__cv_container'>
+				<h2>Descargar mi <a className='cv__a' href='https://drive.google.com/file/d/1PQ5EGRXqQbNdj5JmEnXnOuKhMkv0fvsF/view' target="__blank">CV</a></h2>
 			</div>
 		</>
 	)

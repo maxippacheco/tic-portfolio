@@ -124,18 +124,19 @@
 }
 
 
-@media (max-width: 500px) {
-	.presentation__githubTitle{
-		font-size: 15vw;
-	}
-	.presentation__hobbieTitleContainer > h2 {
-		font-size: 15vw;
-	}
-
+@media (max-width: 700px) {
 	.presentation__githubChart{
 		display: none;
 	}
 	.presentation__githubBox{
 		display: none;
 	}
+	.presentation__githubTitle{
+		font-size: 10vw;
+	}
+
+	.presentation__githubContainer{
+		justify-content: space-evenly;
+	}
+
 }
