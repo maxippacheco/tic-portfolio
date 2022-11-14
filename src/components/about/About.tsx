@@ -51,7 +51,7 @@ export const About = () => {
 
 
 			<div className='foda__container'>
-				{/* <h1>Analisis de mis habilidades</h1> */}
+				<h1>Analisis de mis habilidades</h1>
 				<img src={ analisisFODA } alt="analisis-foda" className='about__analisis_foda' />
 			</div>
 

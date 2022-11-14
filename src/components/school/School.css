@@ -1,5 +1,5 @@
 .school__wrapper{
-	height: 80vh;
+	height: 60vh;
 	display: flex;
 	flex-direction: row;
 }
@@ -12,6 +12,7 @@
 
 .school__info{
 	padding: 0px 50px;
+	margin-bottom: 20px;
 }
 
 .school__info > h2{
@@ -61,7 +62,41 @@
 .school__card{
 	height: 450px;
 	width: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
 	background-color: #29128f;
+	border-radius: 10px;
+}
+
+.school__card_title{
+	text-align: center;
+	color: white;
+}
+
+.school__card_text{
+	color: #ccc;
+	text-align: center;
+	font-size: 18px;
+	margin: 0px 20px;
+}
+
+
+.school__card_btn{
+	margin: 30px 0px;
+	background-color: var(--main-color);
+	border: none;
+	padding: 20px;
+	border-radius: 10px;
+	color: white;
+	z-index: 1;
+	transition: all 300ms ease-in-out;
+}
+
+.school__card_btn:hover{
+	background-color: #1d0e5e;
+	cursor: pointer;
 }
 
 @media (max-width: 1000px) {

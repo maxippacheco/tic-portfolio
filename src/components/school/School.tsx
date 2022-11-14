@@ -2,6 +2,7 @@ import escUNL from '../../assets/esc-unl.jpg';
 import escMoreno from '../../assets/esc-moreno.png';
 
 import './School.css'
+import { SchoolCard } from '../card';
 
 export const School = () => {
 
@@ -50,9 +51,94 @@ export const School = () => {
 			<h2 className='school__card_title'>Trabajos 1er año</h2>
 			
 			<div className="school__card_alignment">
-				<div className='school__card'></div>
-				<div className='school__card'></div>
-				<div className='school__card'></div>
+				<SchoolCard 
+					title='Coloriencia'
+					description='Trabajo en grupo dedicado al estudio del color, utilizando Matemáticas, Física, Química y el método científico.'
+				/>
+				<SchoolCard 
+					title='Energía Hidráulica'
+					description='Trabajo en grupo para la materia Educación Tecnológica, donde se presentan sus usos y los dispositivos que este lleva en su interior.'
+				/>
+				<SchoolCard 
+					title='Presentación TIC'
+					description='En este trabajo me tocó presentar a mi compañero, contar de sus intereses, deportes y datos como su fecha de nacimiento o gustos musicales.'
+				/>
+			</div>
+		</div>
+
+		<div className="school__card_container">
+			<h2 className='school__card_title' style={{ color: 'black'}}>Trabajos 2do año</h2>
+		
+			<div className="school__card_alignment">
+				<SchoolCard 
+					title='Modelos Atómicos'
+					description='Trabajo de química en el que se muestran los diversos modelos atómicos que hubo en la historia, sus cambios y descubrimientos a partir de experiencias.'
+				/>
+				<SchoolCard 
+					title='Leyes de Newton'
+					description='Trabajo de física en el que a partir de situaciones problemáticas se trata de poner en evidencia las diversas leyes de Newton.'
+				/>
+				<SchoolCard 
+					title='Engaños virtuales'
+					description='En este trabajo de Informática se busco dar a conocer los tipos de engaños virtuales, como identificarlos y como prevenirlos.'
+				/>
+			</div>
+		</div>
+
+		<div className="school__card_container bg__main">
+			<h2 className='school__card_title'>Trabajos 3er año</h2>
+		
+			<div className="school__card_alignment">
+				<SchoolCard 
+					title='Modelos Atómicos'
+					description='Trabajo de química en el que se muestran los diversos modelos atómicos que hubo en la historia, sus cambios y descubrimientos a partir de experiencias.'
+				/>
+				<SchoolCard 
+					title='Leyes de Newton'
+					description='Trabajo de física en el que a partir de situaciones problemáticas se trata de poner en evidencia las diversas leyes de Newton.'
+				/>
+				<SchoolCard 
+					title='Engaños virtuales'
+					description='En este trabajo de Informática se busco dar a conocer los tipos de engaños virtuales, como identificarlos y como prevenirlos.'
+				/>
+			</div>
+		</div>
+
+		<div className="school__card_container">
+			<h2 className='school__card_title' style={{ color: 'black'}}>Trabajos 4to año</h2>
+		
+			<div className="school__card_alignment">
+				<SchoolCard 
+					title='Modelos Atómicos'
+					description='Trabajo de química en el que se muestran los diversos modelos atómicos que hubo en la historia, sus cambios y descubrimientos a partir de experiencias.'
+				/>
+				<SchoolCard 
+					title='Leyes de Newton'
+					description='Trabajo de física en el que a partir de situaciones problemáticas se trata de poner en evidencia las diversas leyes de Newton.'
+				/>
+				<SchoolCard 
+					title='Engaños virtuales'
+					description='En este trabajo de Informática se busco dar a conocer los tipos de engaños virtuales, como identificarlos y como prevenirlos.'
+				/>
+			</div>
+		</div>
+
+		<div className="school__card_container bg__main">
+			<h2 className='school__card_title'>Trabajos 5to año</h2>
+		
+			<div className="school__card_alignment">
+				<SchoolCard 
+					title='Modelos Atómicos'
+					description='Trabajo de química en el que se muestran los diversos modelos atómicos que hubo en la historia, sus cambios y descubrimientos a partir de experiencias.'
+				/>
+				<SchoolCard 
+					title='Leyes de Newton'
+					description='Trabajo de física en el que a partir de situaciones problemáticas se trata de poner en evidencia las diversas leyes de Newton.'
+				/>
+				<SchoolCard 
+					title='Engaños virtuales'
+					description='En este trabajo de Informática se busco dar a conocer los tipos de engaños virtuales, como identificarlos y como prevenirlos.'
+				/>
 			</div>
 		</div>
 
