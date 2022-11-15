@@ -3,6 +3,8 @@ import { routes } from './routes';
 
 
 export const AppRouter = () => {
+
+
 	return (
 	  <BrowserRouter>
 			<Routes>

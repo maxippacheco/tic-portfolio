@@ -13,8 +13,8 @@ export const Navbar = () => {
 	const [isVisible, setIsVisible] = useState(false);
 
 	const handleToggle = () => setIsVisible(!isVisible);
-
 	
+
 	return (
 			<header className='header'>
 
@@ -49,11 +49,11 @@ export const Navbar = () => {
 										Autoaprendizaje
 									</Link>
 								</li>
-								<li className="nav-menu-item">
+								{/* <li className="nav-menu-item">
 									<Link to="/hobbies" className='nav-menu-link'>
 										Hobbies
 									</Link>
-								</li>
+								</li> */}
 								<li className="nav-menu-item">
 									<Link to="/school" className='nav-menu-link'>
 										Escuela Secundaria

@@ -54,14 +54,17 @@ export const School = () => {
 				<SchoolCard 
 					title='Coloriencia'
 					description='Trabajo en grupo dedicado al estudio del color, utilizando Matemáticas, Física, Química y el método científico.'
+					link="https://drive.google.com/file/d/1yWmMYgxy9vIwq-HPB2eqPKTBBKh1NxrK/view"
 				/>
 				<SchoolCard 
 					title='Energía Hidráulica'
 					description='Trabajo en grupo para la materia Educación Tecnológica, donde se presentan sus usos y los dispositivos que este lleva en su interior.'
+					link="https://drive.google.com/file/d/1fkYCnBxAbmFEeA4xxuoiseDQWLHe0sp6/view"
 				/>
 				<SchoolCard 
 					title='Presentación TIC'
 					description='En este trabajo me tocó presentar a mi compañero, contar de sus intereses, deportes y datos como su fecha de nacimiento o gustos musicales.'
+					link="https://drive.google.com/file/d/1k2LZ5IhPfDH2J8bZlaoNop9XjuymAlKw/view"
 				/>
 			</div>
 		</div>
@@ -73,14 +76,17 @@ export const School = () => {
 				<SchoolCard 
 					title='Modelos Atómicos'
 					description='Trabajo de química en el que se muestran los diversos modelos atómicos que hubo en la historia, sus cambios y descubrimientos a partir de experiencias.'
+					link="https://drive.google.com/file/d/1qt7vsAKdYMny0vZkr42DTCUWbZl6mamX/view"
 				/>
 				<SchoolCard 
 					title='Leyes de Newton'
 					description='Trabajo de física en el que a partir de situaciones problemáticas se trata de poner en evidencia las diversas leyes de Newton.'
+					link="https://drive.google.com/file/d/1WUQA-nwYST2BtEwbMOO0z72XlS6uoUtt/view"
 				/>
 				<SchoolCard 
 					title='Engaños virtuales'
 					description='En este trabajo de Informática se busco dar a conocer los tipos de engaños virtuales, como identificarlos y como prevenirlos.'
+					link="https://drive.google.com/file/d/1XBwQcRbMYmusHkQ3PMkioIIW_HHPZz_a/view"
 				/>
 			</div>
 		</div>
@@ -90,16 +96,19 @@ export const School = () => {
 		
 			<div className="school__card_alignment">
 				<SchoolCard 
-					title='Modelos Atómicos'
-					description='Trabajo de química en el que se muestran los diversos modelos atómicos que hubo en la historia, sus cambios y descubrimientos a partir de experiencias.'
+					title='Surrealismo'
+					description='Trabajo individual de investigación y producción visual analógica sobre vanguardias, en la cuál yo elegí surrealismo.'
+					link="https://drive.google.com/file/d/1RGn0xM3gNxMwk_gZujdJBb9IF9IpCpRx/view"
 				/>
 				<SchoolCard 
-					title='Leyes de Newton'
+					title='Estrellas y grullas'
 					description='Trabajo de física en el que a partir de situaciones problemáticas se trata de poner en evidencia las diversas leyes de Newton.'
+					link="https://drive.google.com/file/d/1Zc-7dDeR3G_5DKM93hmyCU2FZE2Ei4Yx/view"
 				/>
 				<SchoolCard 
-					title='Engaños virtuales'
-					description='En este trabajo de Informática se busco dar a conocer los tipos de engaños virtuales, como identificarlos y como prevenirlos.'
+					title='Inspiraciones'
+					description='En este trabajo de artes visuales tuve que dejar volar mi inspiración y en mi bitácora creativa anote cosas que me inspiraban y gustaba de hacer.'
+					link="https://drive.google.com/file/d/1M3LhKMaqY71KtM9b6tYITHNbQ1vTpTMz/view"
 				/>
 			</div>
 		</div>
@@ -109,16 +118,19 @@ export const School = () => {
 		
 			<div className="school__card_alignment">
 				<SchoolCard 
-					title='Modelos Atómicos'
-					description='Trabajo de química en el que se muestran los diversos modelos atómicos que hubo en la historia, sus cambios y descubrimientos a partir de experiencias.'
+					title='Estado e Imaginario Social'
+					description='Trabajo de Ciencias Políticas en el que se comparan dos posturas políticas frente al estado y se responden a preguntas acerca de los mismos.'
+					link="https://drive.google.com/file/d/1JxF1qgOhiYuHl8R6-M24rAn-agY9qA9P/view"
 				/>
 				<SchoolCard 
-					title='Leyes de Newton'
-					description='Trabajo de física en el que a partir de situaciones problemáticas se trata de poner en evidencia las diversas leyes de Newton.'
+					title='Experiencias Lengua'
+					description='Un trabajo de volver atrás en el tiempo, en el cuál cuento mi experiencia en la materia y todo lo que aprendí en 4 años de cursado.'
+					link="https://drive.google.com/file/d/1KEMIoN79kPPshH-WkngbmSp1Wx7xaZ8P/view"
 				/>
 				<SchoolCard 
-					title='Engaños virtuales'
-					description='En este trabajo de Informática se busco dar a conocer los tipos de engaños virtuales, como identificarlos y como prevenirlos.'
+					title='Mundo Hiperconectado'
+					description='En este trabajo de TIC se muerstra el velo oculto de las redes sociales, su influencia en nuestra vida, nuestras relaciones y emociones.'
+					link="https://drive.google.com/file/d/1DtCGbS0NCdir03jUo6yAyJGcJSsgI_QV/view"
 				/>
 			</div>
 		</div>
@@ -128,19 +140,34 @@ export const School = () => {
 		
 			<div className="school__card_alignment">
 				<SchoolCard 
-					title='Modelos Atómicos'
-					description='Trabajo de química en el que se muestran los diversos modelos atómicos que hubo en la historia, sus cambios y descubrimientos a partir de experiencias.'
+					title='Futbol sin género'
+					description='En esta infografía se muestra la desigualdad que hay en el fútbol fémenino y masculino, en tanto salarios como oportunidades.'
+					link="https://drive.google.com/file/d/1mgKxr1A5-itIWiOGTZ8rk-Iw7re_ct0w/view"
 				/>
 				<SchoolCard 
-					title='Leyes de Newton'
-					description='Trabajo de física en el que a partir de situaciones problemáticas se trata de poner en evidencia las diversas leyes de Newton.'
+					title='Carta de presentación'
+					description='En este trabajo de OCL me tenía que presentar para una entrevista laboral, un ejercicio muy didáctico para mostrar quién soy.'
+					link="https://drive.google.com/file/d/1Ph1lNUxlWPThOeXscSIX255Usgm5A-AT/view"
 				/>
 				<SchoolCard 
-					title='Engaños virtuales'
-					description='En este trabajo de Informática se busco dar a conocer los tipos de engaños virtuales, como identificarlos y como prevenirlos.'
+					title='Carta de recomendación'
+					description='En este trabajo de OCL tengo que recomendar a un compañero, dando cuenta de sus habilidades blandas y desempeño laboral en una empresa(ficticia).'
+					link="https://drive.google.com/file/d/1PpA9Md2bWF7KSopaDAWPIuO4BIqKxYwR/view"
 				/>
 			</div>
 		</div>
+
+		<div className="school__card_container" style={{ display: 'flex', justifyContent: 'center'}}>
+			<h2 className='school__card_title' style={{ color: 'black'}}>Otras experiencias: </h2>
+			<div className="school__card_alignment">
+
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/97vOO1pJKy0" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/RJPAO2Zv714" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/3ux44bJNU_g" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+		</div>
+		</div>
+
+
 
 		</div>
 	)
